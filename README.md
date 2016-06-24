@@ -1,0 +1,2 @@
+# inventory
+Shop inventory system
