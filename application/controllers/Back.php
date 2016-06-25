@@ -12,4 +12,14 @@ class Back extends CI_Controller {
 	{
 		$this->load->view('admin/dashboard.php');
 	}
+
+	public function inventory()
+	{
+		$this->load->view('admin/inventory.php');
+	}
+
+	public function orders()
+	{
+		$this->load->view('admin/orders.php');
+	}
 }
