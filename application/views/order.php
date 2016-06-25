@@ -38,10 +38,33 @@
 			<div style="background:#f1f4f7 " class="col-md-12">
 				
 						<div class="canvas-wrapper">
-							<div class="col-lg-offset-4 col-lg-4 "><img class="img-responsive" src="assets/images/front-image.png" />
+							<div class="col-lg-offset-4 col-lg-4 ">
 
-								<p class="panel-teal" style="text-align:center;padding:1em; color:white; font-weight:bold">PLACE YOUR
-										ORDER</p>
+									<div class="form-group">
+									
+									<div class="radio">
+										<label>
+											<input type="radio" checked="" value="option1" id="optionsRadios1" name="optionsRadios">Chips
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" value="option2" id="optionsRadios2" name="optionsRadios">Chips + Egg
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" value="option3" id="optionsRadios3" name="optionsRadios">Radio Button 3
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" value="option3" id="optionsRadios3" name="optionsRadios">Radio Button 4
+										</label>
+									</div>
+								</div>
+
+
 							</div>
 
 
