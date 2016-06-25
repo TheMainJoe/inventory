@@ -7,4 +7,9 @@ class Back extends CI_Controller {
 	{
 		$this->load->view('admin/login');
 	}
+
+	public function dashboard()
+	{
+		$this->load->view('admin/dashboard.php');
+	}
 }
